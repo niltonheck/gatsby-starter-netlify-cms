@@ -5,7 +5,9 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "disqus-react": "^1.0.5",
     "gatsby": "next",
+    "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-netlify-cms": "next",
     "gatsby-plugin-react-helmet": "next",

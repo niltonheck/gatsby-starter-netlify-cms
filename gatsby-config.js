@@ -33,6 +33,15 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+		{
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Dancing Script`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ]
+      }
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

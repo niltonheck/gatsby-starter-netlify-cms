@@ -4,35 +4,40 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+					<span className="author-name">[niltonheck ~]#</span>
         </Link>
       </div>
       <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-      </div>
+			</div>
       <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
-      </div>
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+					<i class="fab fa-lg fa-github"></i>
+				</a>
+
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+					<i class="fab fa-lg fa-twitter"></i>
+				</a>
+
+				<Link className="navbar-item" to="/about">
+         Sobre 
+        </Link>
+
+        <Link className="navbar-item" to="/products">
+         Postagens 
+        </Link>
+
+				<Link className="navbar-item" to="/about">
+        	Projetos 
+        </Link>
+
+				<Link className="navbar-item" to="/about">
+         Contato 
+        </Link>
+			</div>
     </div>
   </nav>
 )
