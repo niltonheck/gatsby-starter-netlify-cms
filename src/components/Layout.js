@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children }) => (
 		<div className="container content">
 			<div className="columns">
 				<div className="column is-four-fifth has-text-centered">{children}</div>
-				<div className="column is-one-fifth">
+				<div className="column is-one-fifth is-offset-1">
 					<LeftMenu />
 				</div>
 			</div>

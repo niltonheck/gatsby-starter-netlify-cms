@@ -8,7 +8,7 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-					<span className="author-name">[niltonheck ~]#</span>
+					<span>[niltonheck ~]#</span>
         </Link>
       </div>
       <div className="navbar-start">

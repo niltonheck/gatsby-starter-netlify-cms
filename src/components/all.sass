@@ -7,6 +7,9 @@ $kaldi-red-invert: #fff
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 
+
+$family-primary: 'Roboto Slab'
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -57,7 +60,6 @@ $primary-invert: $kaldi-red-invert
     font-size: 35px
     margin: 0px 10px
 
-
 .is-rounded
   border-radius: 50%;
 
@@ -66,12 +68,13 @@ $primary-invert: $kaldi-red-invert
   padding-bottom: 2px
   border-bottom: 2px solid #6ca0ff 
   background-color: #6ca0ff38
+  margin-bottom: 5px
 
 .navbar
   .container
     padding: 15px 0px
     border-bottom: 1px solid #f1f1f1 
-    margin-bottom: 30px
+    margin-bottom: 50px
 
 span.author-name
   font-family: 'Dancing Script', sans-serif
@@ -81,10 +84,28 @@ span.author-name
   margin-bottom: 10px 0px 20px 0px
 
 .is-small-header
-  margin-bottom: 14px
+  margin-bottom: 20px
   display: inline-block
   padding-bottom: 2px
   border-bottom: 6px solid #6ca0ff57 
   line-height: 2px
+
+.navbar 
+  font-size: 14px;
+
+  .navbar-brand
+    font-weight: bold
+    font-size: 22px
+    letter-spacing: 2px
+
+    a
+      color: #4879d2
+
+.is-post-title
+  margin-bottom: 10px
+
+.is-post-content
+  font-size: 16px
+  line-height: 30px
 
 @import "~bulma"
