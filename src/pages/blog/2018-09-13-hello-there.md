@@ -11,4 +11,16 @@ categories:
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pg5shItzWZg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<script src="https://gist.github.com/niltonheck/1346e03a1f68e105a7f750d724863d74.js"></script>
+```javascript{numberLines: true}
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
