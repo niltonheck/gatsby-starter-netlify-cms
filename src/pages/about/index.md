@@ -1,19 +1,21 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Sobre
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Olá! :-)
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+O meu nome é **Nilton Heck**, tenho 27 anos, e há mais de uma década trabalho diariamente com essa maravilha chamada internet (ou WEB, se preferir). 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Tive muita sorte de ter um pai curioso e/ou maluco que, quando eu ainda era bem pequeno, resolveu trazer para dentro de casa aquela coisa chamada "computador". aos poucos fui me apegando aquele negócio complicado e, naturalmente, não demorou muito para eu me apaixonar completamente. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+O problema (para o meu pai) era que eu não me satisfazia em ver a coisa funcionando. Eu queria entender como tudo funcionada e, pior, queria criar minhas próprias coisas. Por alguns bons anos meu pai precisou desembolsar alguns lelécos para resolver as besteiras que eu fazia - quando havia como resolver, diga-se de passagem. Perdi completamente as contas de quantos HDs destrui, de verdade. 
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Não contentes, meus pais ainda caíram em mais uma ideia maluca minha quando, acredito, não tinha nem 12 anos: eu queria estudar **Linux**. Durante um anos estudei em um instituto de "open-source" local. Minha primeira distro foi o Mandrake - que virou Mandriva, tampos depois. 
+
+![](/img/51vn3h6apdl.jpg)
+
+Mais precisamente, comecei aos 15 anos como programador em uma agência de viagens em Caraguatatuba (cidade onde ainda moram meus pais), no litoral norte de São Paulo. 
+
+Como muitos \[aspirantes a] desenvolvedor minha primeira experiência na área foi utilizando o \~maravilhoso\~ Adobe Dreamweaver. 
+
+Aos 18 anos resolvi me mudar para o Recife - onde resido atualmente -, e me formei em Gestão da Informação pelo Centro de Artes e Comunicação da Universidade Federal de Pernambuco.
