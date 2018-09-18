@@ -12,7 +12,9 @@ O problema (para o meu pai) era que eu não me satisfazia em ver a coisa funcion
 
 Não contentes, meus pais ainda caíram em mais uma ideia maluca minha quando, acredito, não tinha nem 12 anos: eu queria estudar **Linux**. Durante um anos estudei em um instituto de "open-source" local. Minha primeira distro foi o Mandrake - que virou Mandriva, tampos depois. 
 
+<p style="text-align: center;">
 ![](/img/51vn3h6apdl.jpg)
+</p>
 
 Mais precisamente, comecei aos 15 anos como programador em uma agência de viagens em Caraguatatuba (cidade onde ainda moram meus pais), no litoral norte de São Paulo. 
 
