@@ -89,7 +89,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
-            date(formatString: "DD \\d\\e MMMM \\d\\e YYYY", locale: "pt-br")
+            date(formatString: "DD/MM/YYYY", locale: "pt-br")
             categories
           }
         }
