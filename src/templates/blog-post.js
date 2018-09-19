@@ -76,9 +76,8 @@ const BlogPost = ({ data }) => {
           <Helmet>
             <title>{`${post.frontmatter.title} | Blog`}</title>
 
-            <meta name="twitter:card" content={post.frontmatter.description} />
+            <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@niltonheck" />
-            <meta name="twitter:creator" content="@niltonheck" />
             <meta property="og:type" content="article" />
             <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
             <meta property="og:title" content={post.frontmatter.title} />
