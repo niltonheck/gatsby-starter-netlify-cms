@@ -22,13 +22,12 @@ export const BlogPostTemplate = ({
   return (
     <div className="container content">
       <div className="columns">
-        <div className="column is-four-fifth">
+        <div className="column is-three-quarters">
           <section className="section">
             {helmet || ''}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}<br /><small>Publicado em {date}.</small>
             </h1>
-            <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -44,7 +43,7 @@ export const BlogPostTemplate = ({
             ) : null}
           </section>
         </div>
-        <div className="column is-one-fifth is-offset-1">
+        <div className="column ">
           <section className="section">
             <LeftMenu />
           </section>

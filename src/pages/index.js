@@ -13,7 +13,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         <div className="container content">
           <div className="columns">
-            <div className="column is-four-fifth">
+            <div className="column is-three-quarters">
               <section className="section">
                 <div>
                   {posts
@@ -53,7 +53,7 @@ export default class IndexPage extends React.Component {
                 </div>
               </section>
             </div>
-            <div className="column is-one-fifth is-offset-1">
+            <div className="column">
               <section className="section">
                 <LeftMenu />
               </section>
