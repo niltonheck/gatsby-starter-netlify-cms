@@ -9,6 +9,7 @@ tags:
   - devops
 categories:
   - Desenvolvimento
+image: /img/-post-1-thumb.png
 ---
 ![null](/img/captura-de-tela-de-2018-09-17-22-23-46.png)
 
