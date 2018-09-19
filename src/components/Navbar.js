@@ -14,11 +14,11 @@ const Navbar = () => (
       <div className="navbar-start">
 			</div>
       <div className="navbar-end">
-				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://github.com/niltonheck" target="_blank">
 					<i class="fab fa-lg fa-github"></i>
 				</a>
 
-				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/niltonheck" target="_blank">
 					<i class="fab fa-lg fa-twitter"></i>
 				</a>
 
@@ -26,16 +26,8 @@ const Navbar = () => (
          Sobre 
         </Link>
 
-        <Link className="navbar-item" to="/products">
+        <Link className="navbar-item" to="/">
          Postagens 
-        </Link>
-
-				<Link className="navbar-item" to="/about">
-        	Projetos 
-        </Link>
-
-				<Link className="navbar-item" to="/about">
-         Contato 
         </Link>
 			</div>
     </div>

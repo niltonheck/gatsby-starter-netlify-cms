@@ -5,20 +5,25 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import LeftMenu from '../components/LeftMenu'
 
 export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
   tags,
+  categories,
   title,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section>
-      {helmet || ''}
+    <div className="container content">
+      <div className="columns">
+        <div className="column is-four-fifth">
+          <section className="section">
+            {helmet || ''}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -36,7 +41,15 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-    </section>
+          </section>
+        </div>
+        <div className="column is-one-fifth is-offset-1">
+          <section className="section">
+            <LeftMenu />
+          </section>
+        </div>
+      </div>
+    </div>
   )
 }
 
@@ -60,6 +73,7 @@ const BlogPost = ({ data }) => {
         helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        categories={post.frontmatter.categories}
       />
     </Layout>
   )
@@ -79,10 +93,11 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD de MMMM de YYYY", locale: "pt-br")
         title
         description
         tags
+        categories
       }
     }
   }
