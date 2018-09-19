@@ -25,7 +25,7 @@ export const BlogPostTemplate = ({
         <div className="column is-three-quarters">
           <section className="section">
             {helmet || ''}
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h1 className="is-post-title">
               {title}<br /><small>Publicado em {date}.</small>
             </h1>
             <PostContent content={content} />
