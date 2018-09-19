@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
 
 const Navbar = () => (
   <nav className="navbar">
@@ -14,11 +12,11 @@ const Navbar = () => (
       <div className="navbar-start">
 			</div>
       <div className="navbar-end">
-				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://github.com/niltonheck" target="_blank">
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://github.com/niltonheck" rel="noopener noreferrer" target="_blank">
 					<i class="fab fa-lg fa-github"></i>
 				</a>
 
-				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/niltonheck" target="_blank">
+				<a class="navbar-item is-hidden-touch is-hidden-desktop-only" href="https://twitter.com/niltonheck" rel="noopener noreferrer" target="_blank">
 					<i class="fab fa-lg fa-twitter"></i>
 				</a>
 

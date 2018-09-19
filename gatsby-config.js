@@ -22,22 +22,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              wrapperStyle: 'text-align: center;',
-            },
-          },
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-remark-images',
       options: {
         wrapperStyle: 'text-align: center;',
@@ -92,6 +76,15 @@ module.exports = {
               //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
               // Defaults to false.
               showLineNumbers: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              wrapperStyle: 'text-align: center;',
             },
           },
         ],

@@ -8,7 +8,7 @@ const LeftMenu = () => (
 				<span className="is-small-header">Sobre Mim</span>
 			</div>
 			<div>
-				<img className="is-rounded" src={avatar} />
+				<img className="is-rounded" src={avatar} alt="Foto de avatar." />
 			</div>
 			<p>Programador, graduado em Gestão da Informação pela Universidade Federal de Pernambuco, pós-graduando em Ciência de Dados pela POLI-UPE, e gestor executivo na CONBUSS.</p>
 			<p>Especialista em Seguranção da Informação na WEB e Google Analytics.</p>
