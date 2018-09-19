@@ -6,7 +6,7 @@ Olá! :-)
 
 O meu nome é **Nilton Heck**, tenho 27 anos, e há mais de uma década trabalho diariamente com essa maravilha chamada internet (ou WEB, se preferir). 
 
-Resolvi separar esta página com uma finalidade não tão ortodoxa quanto normalmente se usa em um blog "técnico": vou falar de mim sem "corporativês" - para saber o meu CV o [linkedin](https://www.linkedin.com/in/niltonheck) ou o [lattes](http://lattes.cnpq.br/4056158835973420) podem ser as melhores opções -, neste espaço vou contar a minha historinha.
+Resolvi separar esta página para finalidade não tão ortodoxa quanto normalmente se usa em um blog "técnico": vou falar de mim sem "corporativês" - para saber o meu curriculum o [linkedin](https://www.linkedin.com/in/niltonheck) ou o [lattes](http://lattes.cnpq.br/4056158835973420) podem ser as melhores opções -, neste espaço vou contar a minha historinha.
 
 Então...
 
