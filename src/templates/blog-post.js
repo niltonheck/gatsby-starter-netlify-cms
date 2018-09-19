@@ -26,7 +26,7 @@ export const BlogPostTemplate = ({
           <section className="section">
             {helmet || ''}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}<br /><small>Publicado em: {date}</small>
+              {title}<br /><small>Publicado em {date}.</small>
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
@@ -72,7 +72,20 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         date={post.frontmatter.date}
-        helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+        helmet={
+          <Helmet>
+            <title>{`${post.frontmatter.title} | Blog`}</title>
+
+            <meta name="twitter:card" content={post.frontmatter.description} />
+            <meta name="twitter:site" content="@niltonheck" />
+            <meta name="twitter:creator" content="@niltonheck" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
+            <meta property="og:title" content={post.frontmatter.title} />
+            <meta property="og:description" content={post.frontmatter.description} />
+            <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
+          </Helmet>
+        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         categories={post.frontmatter.categories}
