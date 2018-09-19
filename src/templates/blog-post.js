@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   categories,
+  date,
   title,
   helmet,
 }) => {
@@ -25,7 +26,7 @@ export const BlogPostTemplate = ({
           <section className="section">
             {helmet || ''}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+              {title}<br /><small>Publicado em: {date}</small>
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
@@ -70,6 +71,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        date={post.frontmatter.date}
         helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
@@ -93,7 +95,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "DD de MMMM de YYYY", locale: "pt-br")
+        date(formatString: "DD \\d\\e MMMM \\d\\e YYYY", locale: "pt-br")
         title
         description
         tags
