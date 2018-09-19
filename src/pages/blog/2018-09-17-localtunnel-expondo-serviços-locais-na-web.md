@@ -19,7 +19,7 @@ Normalmente, para resolver essa situações você tem, pelo menos, duas opções
 
 As duas soluções são válidas e, em muitos casos, são o suficiente. Porém, o trabalho envolvido, muitas das vezes não compensa.
 
-Porém, e se você pudesse simplesmente executar um único comando e imediatamente receber um endereço público acessível? É isso que o [localtunnel](https://localtunnel.github.io/www/) se propões a fazer (e faz muito bem, aliás).
+Porém, e se você pudesse simplesmente executar um único comando e imediatamente receber um endereço público acessível? É isso que o [localtunnel](https://localtunnel.github.io/www/) se propõe a fazer (e faz muito bem, aliás).
 
 ## Localtunnel: O que é?
 
