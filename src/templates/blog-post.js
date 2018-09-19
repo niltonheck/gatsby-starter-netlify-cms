@@ -75,6 +75,7 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet>
             <title>{`${post.frontmatter.title} | Blog`}</title>
+            <description>{post.frontmatter.description}</description>
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@niltonheck" />
@@ -82,7 +83,7 @@ const BlogPost = ({ data }) => {
             <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:description" content={post.frontmatter.description} />
-            <meta property="og:image" content={post.frontmatter.image} />
+            <meta property="og:image" content={`https://niltonheck.com/${post.frontmatter.image}`} />
           </Helmet>
         }
         tags={post.frontmatter.tags}
