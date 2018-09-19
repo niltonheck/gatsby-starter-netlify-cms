@@ -38,6 +38,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-remark-images',
+      options: {
+        wrapperStyle: 'text-align: center;',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
