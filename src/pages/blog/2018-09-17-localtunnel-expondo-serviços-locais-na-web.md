@@ -15,15 +15,15 @@ image: /img/-post-1-thumb.png
 
 Provavelmente você já precisou colocar algum serviço local disponível na Web. Este cenário é  comum quando, por exemplo, você precisa disponibilizar um ambiente de testes momentâneo onde o seu cliente, ou sua equipe de trabalho, que não estão na mesma rede que você, possam acessar e validar algo.
 
-Normalmente, para resolver essa situações você tem, pelo menos, duas opções bem comuns: configurar o DNS e firewall local para permitir conexões externas; ou utilizar algum serviço de IaaS (Digital Ocean, por ex.) e configurar um servidor remoto temporário.
+Normalmente, para resolver essas situações você tem, pelo menos, duas opções bem comuns: configurar o DNS e firewall local para permitir conexões externas ou utilizar algum serviço de IaaS (Digital Ocean, por ex.) e configurar um servidor remoto temporário.
 
-As duas soluções são válidas e, em muitos casos, são o suficiente. Porém, o trabalho envolvido, muitas das vezes não compensa.
+As duas soluções são válidas e, em muitos casos, são o suficiente. Porém, o trabalho envolvido muitas das vezes não compensa.
 
-Porém, e se você pudesse simplesmente executar um único comando e imediatamente receber um endereço público acessível? É isso que o [localtunnel](https://localtunnel.github.io/www/) se propõe a fazer (e faz muito bem, aliás).
+E se você pudesse simplesmente executar um único comando e imediatamente receber um endereço público acessível? É isso que o [localtunnel](https://localtunnel.github.io/www/) se propõe a fazer (e faz muito bem, aliás).
 
 ## Localtunnel: O que é?
 
-O Localtunnel é uma aplicações NodeJS, instalável via NPM, que cria um "socket" de comunicação em tempo real  entre a sua máquina (client) e o servidor remoto do próprio serviço. (server).
+O Localtunnel é uma aplicações NodeJS, instalável via NPM, que cria um "socket" de comunicação em tempo real  entre a sua máquina (client) e o servidor remoto do próprio serviço (server).
 
 Na prática, o Localtunnel utiliza [express](https://expressjs.com/pt-br/) para "rotear" as requisições para a sua aplicação local.
 
@@ -33,7 +33,7 @@ Para instalar, como já disse, basta apenas o uso do NPM:
 $ npm install -g localtunnel
 ```
 
-Agora, para executar a aplicação precisaremos indicar ao localtunnel, utilizando o comando **lt**, em qual porta local a nossa aplicação está rodando: No meu caso, tenho um container com nginx rodando na porta 8080 local.
+Agora, para executar a aplicação precisaremos indicar ao localtunnel, utilizando o comando **lt**, em qual porta local a nossa aplicação está rodando: no meu caso, tenho um container com nginx rodando na porta 8080 local.
 
 Então...
 
