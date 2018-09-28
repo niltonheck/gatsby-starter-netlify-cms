@@ -65,29 +65,6 @@ Para enviar os dados para o ThingSpeak utilizei a própria biblioteca [ThingSpea
 
 <script src="https://gist.github.com/niltonheck/e3a5bdd432806d2faeb5146782551db2.js"></script>
 
-```c++
-#include "ThingSpeak.h"
-#include <SPI.h>
-#include <Ethernet.h>
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
-EthernetClient client;
-
-unsigned long myChannelNumber = 584073;
-const char * myWriteAPIKey = "[WRITE_APY_KEY]";
-    
-void setup() {
-  Serial.begin(9600);
-  Ethernet.begin(mac);
-  ThingSpeak.begin(client);
-}
-
-void loop() {
-  int sensorValue = analogRead(A0);
-  ThingSpeak.writeField(myChannelNumber, 1, sensorValue, myWriteAPIKey);
-  delay(20000);
-}
-```
-
 Como no meu caso utilizei um shield Ethernet não precisei fazer nenhuma configuração adicional além da definição do Mac Address. No caso de conexões via WiFi será, naturalmente, necessário configurar SSID e senha.
 
 Ao enviar o código ao Arduino os dados são imediatamente encaminhados ao ThingSpeak, que exibe no gráfico os dados coletados.
