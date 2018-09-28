@@ -35,15 +35,13 @@ Para que os dispositivos possam se comunicar com o ThingSpeak é necessário que
 
 Uma vez criado o canal o envio de dados pode ser realizada de, pelo menos, três maneiras diferentes, a depender do projeto: (1) via HTTP (REST); via MQTT; ou via MATLAB.
 
-Aqui está um exemplo de envio de dados - neste caso estou utilizando uam requisição HTTP enviando o valor do **campo 1** como sendo **315**.
+Aqui está um exemplo de envio de dados - neste caso estou realizando uma requisição HTTP enviando o valor do **campo 1** como sendo **315**.
 
 ```bash
 $ curl https://api.thingspeak.com/update?api_key=[APY_KEY]&field1=315
 ```
 
-Substituindo, evidentemente, o valor de \[APY_KEY] pela chave fornecida pelo próprio ThingSpeak.
-
-Neste momento, se mais nenhuma mudança foi feita, será possível ver o valor enviado aparecendo no único gráfico disponível na tela do canal criado.
+Neste momento, se mais nenhuma mudança foi feita na definição do seu canal, será possível ver o valor enviado aparecendo no único gráfico disponível na tela do canal criado.
 
 ## Show Me The Code!
 
