@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'ThingSpeak: Fazendo coisas falarem.'
+title: 'ThingSpeak: Fazendo coisas falarem'
 date: 2018-09-28T14:23:57.127Z
 description: >-
   O ThingSpeak é uma plataforma opensource com foco na coleta, análise e
@@ -17,9 +17,9 @@ image: /img/dd8ragn.jpg
 ---
 Há algum tempo atrás colocar dispositivos IoT conectados a serviços na Web não era, necessariamente, uma tarefa muito simples. Lembro que quando fui elaborar um primeiro projeto nesse contexto, utilizando um Arduino, precisei escrever um "parser" para receber e enviar requisições via HTTP: era necessário compreender como o protocolo funcionava (principalmente os cabeçalhos) para que fosse possível traduzir as solicitações.
 
-Hoje em dia, felizmente, o ecossistema está muito mais maduro e essa tarefa ficou muitos mais simples interagir com a web através de plataformas já prontas.
+Hoje em dia, felizmente, o ecossistema está muito mais maduro e ficou muito mais simples interagir com a web através de plataformas já prontas.
 
-Recentemente esbarrei em uma  destas plataforma, o **ThingSpeak**, e achei que seria interessante compartilhar o que pude fazer com ela em um projeto de menos de 30 minutos.
+Recentemente esbarrei em uma destas plataforma, o **ThingSpeak**, e achei que seria interessante compartilhar o que pude fazer com ela em um projeto de menos de 30 minutos.
 
 ## ThingSpeak
 
