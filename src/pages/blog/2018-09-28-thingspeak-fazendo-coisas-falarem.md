@@ -104,4 +104,4 @@ Este mesmo projeto eu evolui para dois usos: envio de SMS (usando Twillio) e um 
 
 As possibilidades são praticamente infinitas e, mais a frente, postarei a evolução deste projeto, e de outros, que vier a realizar enquanto exploro mais a plataforma.
 
-;-)
+Happy Hacking! ;-)
