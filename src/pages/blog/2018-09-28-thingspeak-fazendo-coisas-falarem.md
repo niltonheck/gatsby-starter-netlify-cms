@@ -63,6 +63,8 @@ O valor de saída analógica do sensor está ligada ao pin A0 do Arduino e, ser�
 
 Para enviar os dados para o ThingSpeak utilizei a própria biblioteca [ThingSpeak](https://www.arduinolibraries.info/libraries/thing-speak) disponibilizada dentro da IDE do Arduino. O código completo para captura e envio dos códigos para o ThingSpeak não poderia ser mais simples:
 
+<script src="https://gist.github.com/niltonheck/e3a5bdd432806d2faeb5146782551db2.js"></script>
+
 ```c++
 #include "ThingSpeak.h"
 #include <SPI.h>
