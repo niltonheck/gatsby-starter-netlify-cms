@@ -96,12 +96,12 @@ Para fazer a coisa toda ficar mais engraçadinha você pode, enviar um Tweet sem
 
 ## Considerações Finais
 
-Para quem já escreveu serviços "na unha" para integrar com a Web o ThingSpeak é como um salto no futuro. As integrações são simplíssimas de serem feita, tanto para envio de dados quanto para leitura.
+Para quem já escreveu serviços "na unha" para integrar com a Web o ThingSpeak é como um salto no futuro. As integrações são simplíssimas de serem feitas, tanto para envio de dados quanto para leitura.
 
 Evidentemente muitos dos projetos "conhecidos" tratam de usos triviais de IoT, mas o ThingSpeak pode ser uma excelente plataforma para prototipação de projetos reais - ou mesmo para produção, utilizando os planos pagos da plataforma.
 
 Este mesmo projeto eu evolui para dois usos: envio de SMS (usando Twillio) e um tracker no meu painel do XFCE para monitorando da planta: tudo em menos de 1 hora de trabalho e com baixa complexidade.
 
-As possibilidades são praticamente infinitas e, mais a frente, postarei a evolução deste projetos e de outros que vier a realizar enquanto exploro mais a plataforma.
+As possibilidades são praticamente infinitas e, mais a frente, postarei a evolução deste projeto, e de outros, que vier a realizar enquanto exploro mais a plataforma.
 
 ;-)
