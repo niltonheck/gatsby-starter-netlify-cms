@@ -47,7 +47,7 @@ Ok Ok...
 
 ![](/img/show-me-the-code-and-stop-talking.jpg)
 
-Para demonstrar como tudo funciona no mundo real re-editei um dos projetos mais clássicos do universo IoT: a planta "inteligente". Basicamente, instalei um sensor de umidade de solo em uma das plantas do escritório e conectei a saída deste sensor a um Arduino com Ethernet Shield.
+Vamos lá... para demonstrar como tudo funciona no mundo real re-editei um dos projetos mais clássicos do universo IoT: a planta "inteligente". Basicamente, instalei um sensor de umidade de solo em uma das plantas do escritório e conectei a saída deste sensor a um Arduino com Ethernet Shield. A idéia: eu quero saber quando aguar o solo da planta por que sou preguiçoso demais para fazer isso sem ninguém mandar.
 
 O resultado real foi esse:
 
