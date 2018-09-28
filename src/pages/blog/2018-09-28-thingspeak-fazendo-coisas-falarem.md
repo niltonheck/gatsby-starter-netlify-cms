@@ -43,7 +43,9 @@ $ curl https://api.thingspeak.com/update?api_key=[APY_KEY]&field1=315
 
 Neste momento, se mais nenhuma mudança foi feita na definição do seu canal, será possível ver o valor enviado aparecendo no único gráfico disponível na tela do canal criado.
 
-## Show Me The Code!
+Ok Ok...
+
+![](/img/show-me-the-code-and-stop-talking.jpg)
 
 Para demonstrar como tudo funciona no mundo real re-editei um dos projetos mais clássicos do universo IoT: a planta "inteligente". Basicamente, instalei um sensor de umidade de solo em uma das plantas do escritório e conectei a saída deste sensor a um Arduino com Ethernet Shield.
 
@@ -88,7 +90,7 @@ Como no meu caso utilizei um shield Ethernet não precisei fazer nenhuma configu
 
 Ao enviar o código ao Arduino os dados são imediatamente encaminhados ao ThingSpeak, que exibe no gráfico os dados coletados.
 
-![](/img/captura-de-tela-de-2018-09-28-12-03-13.png)
+![null](/img/captura-de-tela-de-2018-09-28-12-03-13.png)
 
 Para fazer a coisa toda ficar mais engraçadinha você pode, por exemplo, enviar um Tweet sempre que a umidade do solo, por exemplo, ultrapassar a marca de 400: tornando público a sua absoluta negligência com a vida da coitada da planta.
 
@@ -102,4 +104,4 @@ Este mesmo projeto eu evolui para dois usos: envio de SMS (usando Twillio) e um 
 
 As possibilidades são praticamente infinitas e, mais a frente, postarei a evolução deste projetos e de outros que vier a realizar enquanto exploro mais a plataforma.
 
-;-) 
+;-)
