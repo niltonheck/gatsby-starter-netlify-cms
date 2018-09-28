@@ -92,7 +92,7 @@ Ao enviar o código ao Arduino os dados são imediatamente encaminhados ao Thing
 
 ![null](/img/captura-de-tela-de-2018-09-28-12-03-13.png)
 
-Para fazer a coisa toda ficar mais engraçadinha você pode, por exemplo, enviar um Tweet sempre que a umidade do solo, por exemplo, ultrapassar a marca de 400: tornando público a sua absoluta negligência com a vida da coitada da planta.
+Para fazer a coisa toda ficar mais engraçadinha você pode, enviar um Tweet sempre que a umidade do solo, por exemplo, ultrapassar a marca de 400: tornando público a sua absoluta negligência com a vida da coitada da planta.
 
 ## Considerações Finais
 
